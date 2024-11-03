@@ -1,4 +1,4 @@
-
+//Inheritance has Employee is a Person
 public class Employee extends Person {
 	
 	private String occupation;
@@ -10,7 +10,7 @@ public class Employee extends Person {
 		this.occupation = occupation;
 	}
 	
-	// This will get overwritten several times, in many forms throughout the program
+	// New form, Overridden to add Employee Data
 	public void personDetails() {
 		System.out.println(super.getDetails() + "\nID: " + ID + "\nWorks in: "  + occupation);
 	}

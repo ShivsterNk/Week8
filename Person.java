@@ -13,6 +13,7 @@ public class Person {
 		return "Name: " + name + "\nAge: " + age;
 	}
 	
+	// This will get overwritten several times, in many forms throughout the program, showing polymorphism
 	public void personDetails() {
 		System.out.println("Person details: " + getDetails());
 	}

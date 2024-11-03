@@ -1,4 +1,4 @@
-
+//Inheritance as Student is a Person
 public class Student extends Person {
 	
 	private String fieldstudy;
@@ -8,6 +8,7 @@ public class Student extends Person {
 		this.fieldstudy = fieldstudy;
 	}
 	
+	//New form, overridden to add Student data
 	public void personDetails() {
 		System.out.println(super.getDetails() + "\nMajoring in the field of: " + fieldstudy);
 	}

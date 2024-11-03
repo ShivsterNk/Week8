@@ -1,4 +1,4 @@
-
+//This will test the methods previously created in all the other classes.
 public class TestingPerson {
 
 	public static void main(String[] args) {
